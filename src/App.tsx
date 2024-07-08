@@ -4,8 +4,6 @@ import { Analytics } from "@vercel/analytics/react";
 const App = () => {
   return (
     <>
-      {console.log(import.meta.env.VITE_GEMINI_API_KEY, "key kkeuy")}
-
       <Sidebar />
       <Main />
       <Analytics />
